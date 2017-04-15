@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">C Tutorials</string>
+
+    <string-array name="tuts">
+    <item>Introduction</item>
+    <item>Hello World</item>
+    <item>What is a function</item>
+    <item>Variables</item>
+    <item>Assignment operator</item>
+    <item>Swap two numbers</item>
+    <item>Other Data Types</item>
+    <item>More on Functions</item>
+    <item>Conditional IF</item>
+    <item>Switch statement</item>
+    <item>Introduction to Arrays</item>
+    <item>For loops</item>
+    <item>While and Do while</item>
+    <item>Passing Values to Functions</item>
+    <item>Even or Odd</item>
+    <item>Leap year program</item>
+    <item>Sum of first N numbers</item>
+    <item>Sum of first N Even Numbers</item>
+    <item>is the number prime</item>
+    <item>find number of Digits in a number</item>
+    <item>Sum od digits in a number</item>
+    <item>Organize data with structures</item>
+    <item>Store data in files</item>
+    <item>Read data from files</item>
+    <item>Pointers</item>
+    <item>Pointers and Arrays</item>
+    <item>Associativity and precedence</item>
+    <item>Pass by Value</item>
+    <item>More with structures</item>
+    <item>Preprocessor Directives</item>
+    </string-array>
+
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="about_statement">This app aims to provide a clear introduction in <b><i>C</i></b>. through short descriptions and code snippets. at the end of
+    every tutorial you will find a link to a video discussion <b><i>(in arabic)</i></b>.
+    feel free to leave any feedback and happy coding.</string>
+    <string name="contact_us">Contact us</string>
+    <string name="watch_arabic_video_tutorial">Watch Arabic video tutorial</string>
+    <string name="intro_1">First of all <b><i>C</i></b> is a general purpose programming
+    language, it\'s a Structured language(we will talk about this point a lot later), can
+    handle low-level activities and it\'s the most widely used system programming language.</string>
+    <string name="intro_2"><b><i>What is C used for mainly:</i></b>\n1) Operating systems programming(UNIX)\n2)
+    Language compilers(GNU)\n3) Text editors(Gedit)\n4) Network Drivers(LAN)\n5) Data Bases(MYSQL)</string>
+    <string name="intro_3">To start writing C code you should\'ve two components. a compiler(which
+        is used to translate your high-level code into machine language) search for GNU compiler, and
+    an IDE, there are a lot of options, we are going to use netbeans through this tutorials.</string>
+    <string name="hello_1">To start writing out first program we should first open the IDE,
+    i\'ll open netbeans(Run whatever ide you have downloaded) and select File >>new project.\n
+    choose C Application and click next. give your project a name and specify it\'s path and click finish.\n
+    you should end up with something like this.</string>
+    <string name="hello_2">Right click on source folder and choose new C main file, give it a name and click finish.</string>
+    <string name="hello_3">Now let\'s discuss those lines.\nLine no. 14: you are telling the
+    compiler to include the stdio(standard input/output) header file, which is responsible for
+    handling both input and output operations.\nFrom line 16 to line 18: it\'s called multi-line
+    comments which is used to comment your code for hints and notes(comments never display with the program output).\n
+    Line 19: this is the main function with is responsible for triggering the compiler t start
+    do it\'s job, without the main function your code will never start.\nLine 21: any function with a type(
+    we will talk about Data type later) should return something with the same type, here the main
+    function is of type int(integer) so it returns zero(which means the function is working).\nNow
+    to print our hello world message we just go inside the main function and use the printf function.\n
+    take a look at the code below.</string>
+
+</resources>
